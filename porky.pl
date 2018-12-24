@@ -12,7 +12,7 @@ sub user_exists {
  my ($username, $password) = @_;
  my $radius = Authen::Simple::RADIUS->new(
      host   => 'localhost',
-     secret => 'IDontKnowWhat2Say'
+     secret => '<password>'
    );
  
    # successfull authentication
